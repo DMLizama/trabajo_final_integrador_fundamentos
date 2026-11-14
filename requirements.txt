@@ -1,0 +1,7 @@
+# ==============================================================================
+# TP Final Integrador - Fundamentos Teóricos de Informática (2026)
+# Tema 12: Cancioneros con acordes
+# ==============================================================================
+# El proyecto utiliza exclusivamente módulos de la librería estándar de Python 3
+# (re, argparse, dataclasses, pathlib, sys, typing), por lo que no requiere
+# paquetes externos para su ejecución y funciona 100% sin conexión.

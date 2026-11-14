@@ -1,0 +1,16 @@
+# Bytecode y cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Archivos de salida de ejecuciones
+*_salida.txt
+
+# Configuraciones de editor / IDE
+.vscode/
+.idea/
