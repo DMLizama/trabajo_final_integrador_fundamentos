@@ -162,14 +162,14 @@ def procesar_cancionero(
         match_titulo = ER_TITULO.match(linea_cruda)
         if match_titulo:
             cancion_actual = match_titulo.group(1)
-            esperando_tono = True
+            esperando_tono = True # Como encontramos el título, esperamos que después posiblemente venga la tonalidad de la canción
             resultado.lineas_salida.append(f"# {cancion_actual}")
             continue
 
-        # 2. ¿Es la línea opcional 'Tono: X' luego del título?
+        # 2. ¿Es la línea opcional 'Tono: X' después del título?
         match_tono = ER_TONO.match(linea_cruda)
         if match_tono:
-            if not esperando_tono:
+            if not esperando_tono: # Caso en el que la tonalidad fue encontrada en otra posición distinta...
                 resultado.advertencias.append(
                     f"Línea {indice} ({cancion_actual}): 'Tono:' encontrado fuera del encabezado de la canción"
                 )
