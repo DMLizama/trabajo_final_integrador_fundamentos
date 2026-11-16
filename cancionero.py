@@ -85,7 +85,7 @@ def procesar_linea_acordes(
         nota_con_alt = f"{acorde.nota}{acorde.alteracion}"
         if nota_con_alt in ALTERACIONES_INUSUALES or acorde.bajo_completo in ALTERACIONES_INUSUALES:
             resultado.advertencias.append(
-                f"Línea {num_linea} ({cancion_actual}): Alteración enarmónica inusual en '{token}' (normalizada al transponer)"
+                f"Línea {num_linea} ({cancion_actual}): Alteración inusual en '{token}' (normalizada al transponer)"
             )
 
         acorde_nuevo = transponer_acorde(acorde, semitonos, usar_latino)

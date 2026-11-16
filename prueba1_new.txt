@@ -1,0 +1,62 @@
+# Canción de ejemplo
+Tono: G#/F#
+G#       D#/G      Fm
+Camino por la costa al sol
+C#           D#7       G#
+miro el mar y pienso en vos
+
+A#m7    Cm     C#maj7
+vuelve la marea otra vez
+D#sus4  D#      G#   [?Hx7]
+y se lleva todo lo que sé
+
+# Coplas del valle (Folklore tradicional)
+Tono: A#m
+A#m         G#           F#         F7
+A veces el viento baja cantando del cerro
+D#m7        G#7          C#maj7     F7/A
+trayendo memorias viejas de algún invierno
+
+F#maj7      B            Fdim       [?Am99]
+Si vuelve la primavera florece el cardón
+D#m         F7           A#m
+y el río despierta lento en mi corazón
+
+========================================================================
+RESUMEN DE ACORDES EXTRAÍDOS (EXPRESIONES REGULARES)
+========================================================================
+Línea   Original   Nota   Alt.   Tipo     Bajo     Transpuesto 
+------------------------------------------------------------------------
+3       G          G      -      -        -        G#          
+3       D/F#       D      -      -        F#       D#/G        
+3       Em         E      -      m        -        Fm          
+5       C          C      -      -        -        C#          
+5       D7         D      -      7        -        D#7         
+5       G          G      -      -        -        G#          
+8       Am7        A      -      m7       -        A#m7        
+8       Bm         B      -      m        -        Cm          
+8       Cmaj7      C      -      maj7     -        C#maj7      
+10      Dsus4      D      -      sus4     -        D#sus4      
+10      D          D      -      -        -        D#          
+10      G          G      -      -        -        G#          
+15      Am         A      -      m        -        A#m         
+15      G          G      -      -        -        G#          
+15      F          F      -      -        -        F#          
+15      E7         E      -      7        -        F7          
+17      Dm7        D      -      m7       -        D#m7        
+17      G7         G      -      7        -        G#7         
+17      Cmaj7      C      -      maj7     -        C#maj7      
+17      E7/G#      E      -      7        G#       F7/A        
+20      Fmaj7      F      -      maj7     -        F#maj7      
+20      Bb         B      b      -        -        B           
+20      Edim       E      -      dim      -        Fdim        
+22      Dm         D      -      m        -        D#m         
+22      E7         E      -      7        -        F7          
+22      Am         A      -      m        -        A#m         
+
+========================================================================
+VALIDACIONES Y ACORDES RECHAZADOS
+========================================================================
+[!] Línea 2 (Canción de ejemplo): 'Tono: G/F' es un acorde pero no una tonalidad estándar (debe ser mayor o menor simple)
+[!] Línea 10 (Canción de ejemplo): Acorde mal escrito rechazado -> 'Hx7'
+[!] Línea 20 (Coplas del valle (Folklore tradicional)): Acorde mal escrito rechazado -> 'Am99'
